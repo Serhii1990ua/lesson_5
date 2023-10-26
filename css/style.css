@@ -1,0 +1,100 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+
+
+/* ------------------------------ */
+
+
+body{
+	padding: 0 50px;
+}
+
+.wrapper {
+	max-width: 850px;
+	margin: 0 auto; /*center*/
+	/*margin: 0 0 0 auto;*/ /*right*/
+
+}
+.title {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 30px;
+	color: #144031;
+	text-shadow: 1px 1px 1px rgb(107, 116, 113);
+
+}
+.image {
+margin: 0 0 10px 0;
+box-shadow: -2px 2px 3px rgb(107, 116, 113);
+
+
+}
+.image_wrapper {
+	text-align: right;
+}
+.content {
+	height: 100px;
+	overflow: auto;
+	box-shadow: 2px 2px 3px rgb(107, 116, 113);
+	width: 750px;
+	margin: 0 0 10px 0;
+}
+.signature {
+	text-align: right;
+	color: #144031;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
